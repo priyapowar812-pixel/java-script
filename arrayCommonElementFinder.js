@@ -5,14 +5,22 @@ let len1 = fifthStd.length;
 let len2 = sixthStd.length;
 
 let commonElements = [];
-for(let i =0; i<len1; i++)
+// for(let i =0; i<len1; i++)
+// {
+//     for (let j=0; j<len2; j++)
+//     {
+//         if(fifthStd[i] === sixthStd[j])
+//         {
+//             commonElements.push(fifthStd[i]);
+//         }
+//     }
+// }
+
+for(let student of fifthStd)
 {
-    for (let j=0; j<len2; j++)
+    if(sixthStd.includes(student))
     {
-        if(fifthStd[i] === sixthStd[j])
-        {
-            commonElements.push(fifthStd[i]);
-        }
+        commonElements.push(student);
     }
 }
 
