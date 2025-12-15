@@ -20,10 +20,21 @@ function getWeeklySchedule(){
         let schedule = getSchedule(day);
         console.log(schedule);
     }
+
+    // let schedule = getSchedule("mon");
+    // console.log(schedule);
+    // schedule = getSchedule("tue");
+    // console.log(schedule);
+    // schedule = getSchedule("wed");
+    // console.log(schedule);
+    // schedule = getSchedule("thr");
+    // console.log(schedule);
+    // schedule = getSchedule("fri");
+    // console.log(schedule);
 }
 
 function getSchedule(day) {
-     let schedule = [];
+    let schedule = [];
 
     for(let dept of depts) {
 
