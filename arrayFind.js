@@ -12,7 +12,9 @@ function transform( transformer){
     return result;
 }
 
-console.log("length of each element is", transform(length));
+const lenArray = names.map(name=> name.length);
+console.log("length of each element is", lenArray);
+// console.log("length of each element is", transform(length));
 
 const concatStar = (name) => name + '*';
 
