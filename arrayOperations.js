@@ -33,7 +33,7 @@ function getSquares(nums){
 //  return result;
 let result = [];
 
-for(let num of nums) {
+for(let num of nums) { {
     let numSquare = {
         num,
         square : num * num
@@ -43,4 +43,4 @@ for(let num of nums) {
 return result;
 }
 
-// console.log(getSquares(nums));
+console.log(result);

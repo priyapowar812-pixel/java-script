@@ -1,5 +1,5 @@
 let one = "man";
-let two = "nan";
+let two = "nam";
 
 function checkAnagram() {
     
